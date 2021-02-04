@@ -16,6 +16,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 header h1{
@@ -222,10 +223,6 @@ section{
 
 .checkbox-wrapper input, .radio-wrapper input{
     opacity: 0;
-}
-
-.checkbox-wrapper input + label::after{
-    border-right: 30px solid #fff;
 }
 
 .checkbox-wrapper input + label::after, .radio-wrapper input + label::after{
